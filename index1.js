@@ -10,8 +10,9 @@ function checkExam(array1, array2) {
                 totalScore -= 1;
             }
         }
-        if (totalScore < 0) {
-            totalScore = 0;
-        }
-        return totalScore;
     }
+    if (totalScore < 0) {
+        totalScore = 0;
+    }
+    return totalScore;
+}
